@@ -1,0 +1,4 @@
+The WordFinder program reads a file, looks for a replaces a string, and writes back to a new file.
+It starts by asking what you would like the new file to be called. It then calls for the input file, and calls another function to perform the replacing.
+This separate function will read the file into an array list, and replace all occurrences of the string to be replaced with the new string. It does this replacement in the same array list to keep the code simpler.
+Once all replacements are made, it writes the same array list to disk in the same folder, using the new file name given to it.

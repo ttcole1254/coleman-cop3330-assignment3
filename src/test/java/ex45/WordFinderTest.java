@@ -1,15 +1,9 @@
 package ex45;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileWriter;
-import java.util.ArrayList;
 
-import static ex45.WordFinder.writeFile;
 import static org.junit.jupiter.api.Assertions.*;
 
 class WordFinderTest {

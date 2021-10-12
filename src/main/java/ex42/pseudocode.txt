@@ -1,0 +1,4 @@
+The Parsing function reads a CSV file, sorts by salary highest to lowest, and writes the results to disk.
+The main function creates two file references, one for the input and one for the output. The input file is read and turned into an array list for sorting purposes.
+The fileWrite method splits each line based on a single character, in this case a comma. This is the simplest way of doing this as the split values are not saved, and simply printed as they are split.
+Each line is read one at a time for easy parsing.

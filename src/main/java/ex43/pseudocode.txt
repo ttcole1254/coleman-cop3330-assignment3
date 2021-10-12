@@ -1,0 +1,5 @@
+The WebsiteGenerator program creates a website skeleton based on user input and known variables. It begins by asking the site's name, author, whether you want a JavaScript folder, and whether you want a CSS folder.
+It adds these answers to an array list, and passes it to a method which creates the paths for all of the files and folders.
+The pathMaker function uses a switch case to determine which answer it's currently looking at. It then sends a request to another function to create an HTML file with the requested author and website name.
+It also creates the main website directory, and supporting directories if requested.
+Separate functions take care of each operation separately, from creating a folder, a file, and adding the code to the HTML file.

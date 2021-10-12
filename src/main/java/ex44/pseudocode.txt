@@ -1,0 +1,4 @@
+The ProductSearch program pulls data from a JSON file in order to search for a product and receive its current quantity and price. First the file is read and parsed by an external parser, into an array list.
+The array list itself stores the information as a Product object. This object contains the product's name, price, and quantity.
+In order to search for a product, the program asks what product you're looking for by name. It then converts your answer to lower case to avoid false negatives, and a separate search function will go through each item looking for a match.
+If it finds one, it will return the product object back, where it then displays its name, quantity, and price. If the product is not found, it will say that the product is not in the inventory, and will ask for a product to find again.
