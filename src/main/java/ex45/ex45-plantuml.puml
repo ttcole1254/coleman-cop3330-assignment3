@@ -1,0 +1,10 @@
+@startuml
+
+class WordFinder {
+ +(static)filePath: String
+ + main(arg: String[]): void
+ + fixFileName(fileName: String): String
+ + writeFile (fileName: String, text: TextFileInput): FileWriter
+}
+
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+
+class Parsing {
+
+ +{static} readFile: BufferedReader
+ +{static}writeFile: BufferedWriter
+
+ +  main(arg: String[]): void
+ + fileRead(inout inputFile: BufferedReader, fileName: String): ArrayList<String>
+ + fileWrite(inout outputFile: BufferedWriter, sortedString: ArrayList<String> , String fileName): BufferedWriter
+
+}
+
+@enduml

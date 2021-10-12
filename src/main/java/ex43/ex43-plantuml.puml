@@ -1,0 +1,18 @@
+@startuml
+
+class WebsiteGenerator {
+
+ +{static}input: Scanner
+ +{static}htmlFile: FileWriter
+
+ +main(arg: String[]): void
+ +getWebsiteData() : ArrayList<String>
+ +pathMaker (websiteData: ArrayList<String> : void
+ +createFolderPath(sourceDirectory: String , folderName: String, subFolderName: String): File
+ +createFolder(folder: File): void
+ +createHTMLFile(outputFile: FileWriter, path: String) : void
+ +htmlMaker(outputFile: FileWriter, websiteData: ArrayList<String>, path String) : FileWriter
+
+}
+
+@enduml

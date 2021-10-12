@@ -1,0 +1,27 @@
+@startuml
+
+class ProductSearch {
++{static} output: Scanner
+
+
+ + main(arg: String[]): void
+ + getProducts(): String
+ + searchForProduct(products: List<Products>) : String
+ + search(products: List<Products> , search: String): Product
+}
+
+class Products{
+ name: String;
+ price: Double;
+ quantity: Integer;
+
+ +Products(name: String, price: Double, quantity: Integer) : void
+ +getName(): String
+ +getPrice(): Double
+ +getQuantity(): Integer
+
+}
+
+Products <..ProductSearch : uses
+
+@enduml
